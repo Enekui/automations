@@ -1,4 +1,4 @@
-# Seqera Labs AWS Database Cross-Account Migration Tool
+# AWS Database Cross-Account Migration Tool
 ### This tool will take care of migrating a database that has been created using the default AWS kms/rds key. 
 ### Once the database is created with a default AWS managed kms key, the snapshots created from this DB can't be shared with another account. That happens because the AWS managed KMS keys policies can't be updated.
 
